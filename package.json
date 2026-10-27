@@ -1,0 +1,26 @@
+{
+  "name": "staffsync-hrm",
+  "version": "1.0.0",
+  "description": "StaffSync - Modern Human Resource Management Solution (MERN Stack)",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "node backend/utils/seedData.js",
+    "test": "node backend/test/api.test.js",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "human-resources",
+    "hrm",
+    "attendance",
+    "leave-management",
+    "react",
+    "express",
+    "mongodb",
+    "node"
+  ],
+  "author": "StaffSync Team",
+  "license": "ISC"
+}
